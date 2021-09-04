@@ -1,4 +1,4 @@
-{% set version = "0.4" %}
+{% set version = "0.4.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,7 +11,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/europepmc_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/europepmc/europepmc_{{ version }}.tar.gz
-  sha256: d55f62963d0ee84830654bbc78f4ad8285e376b04be137cbeaf8ad2a98b7969c
+  sha256: c1ba91a2a99432cabe18e86fea33ac9d20dbb3ac0b58f430d464b4d8ecba4a9a
 
 build:
   noarch: generic

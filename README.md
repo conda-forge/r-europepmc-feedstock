@@ -1,11 +1,11 @@
-About r-europepmc
-=================
+About r-europepmc-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-europepmc-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/ropensci/europepmc/
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-europepmc-feedstock/blob/main/LICENSE.txt)
 
 Summary: An R Client for the Europe PubMed Central RESTful Web Service (see <https://europepmc.org/RestfulWebService> for more information). It gives access to both metadata on life science literature and open access full texts. Europe PMC indexes all PubMed content and other literature sources including Agricola, a bibliographic database of citations to the agricultural literature, or Biological Patents. In addition to bibliographic metadata, the client allows users to fetch citations and reference lists. Links between life-science literature and other EBI databases, including ENA, PDB or ChEMBL are also accessible. No registration or API key is required. See the vignettes for usage examples.
 
